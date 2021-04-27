@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.top-left {
+  background-color: yellow;
+}
+
+.top-right {
+  background-color: red;
+}
+
+.bottom-left {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bottom-left .left {
+  background-color: green;
+}
+
+.bottom-left .right {
+  background-color: blue;
+}
+
+.bottom-right {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.bottom-right .top-left {
+  background-color: green;
+}
+
+.bottom-right .top-right {
+  background-color: black;
+}
+
+.bottom-right .bottom-left {
+  background-color: white;
+}
+
+.bottom-right .bottom-right {
+  background-color: yellow;
+}
